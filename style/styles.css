@@ -3,44 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.itam-1 { grid-area:MasonryI; }
-.itam-2 { grid-area:MasonryI; }
-.itam-3 { grid-area:MasonryI; }
-.itam-4 { grid-area:MasonryI; }
-.itam-5{ grid-area:MasonryI; }
-.itam-6 { grid-area:Fluid; }
-.itam-7 { grid-area:Explicitlyplaced; }
-.itam-8 { grid-area:NegativeSpace; }
-.itam-9 { grid-area:FlexibleBreadth; }
-.itam-10 { grid-area:MansonryII; }
-.itam-11 { grid-area:ExplicitlyPlaced; }
-.itam-12 { grid-area:MansonryIII; }
-.itam-13 { grid-area:DOMOrder; }
-.itam-14 { grid-area:MasonryII; }
-.itam-15 { grid-area:Namedtracks; }
-.itam-16 { grid-area:Namedtracks; }
-
-
-.grid-conteiner {
-    display: grid;
-    grid-template-areas:
-    'MasonryI MasonryI MasonryI MasonryI'
-    'Responsive Responsive Responsive Responsive'
-    'Overiap Overiap Overiap Overiap'
-    'Fluid Fluid Fluid Fluid';
-    gap: 10px;
+.itam {
+    /* width: 200px; */
+    /* height: 200px; */
     background-color: white;
-    padding: 10px;
-}
-.grid-conteiner > div {
-  
-    text-align: center;
-    padding: 20px o;
+    border: 1px solid;
     font-size: 30px;
+    text-align: center;
 }
-header div{
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 5px;
     background-color: blue;
 }
-/////////////////////////////////////
+
+/* .itam-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+////////////////////////////////// */
 not finsh
